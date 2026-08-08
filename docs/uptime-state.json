@@ -1,13 +1,13 @@
 {
   "targets": {
     "api": {
-      "consecutiveFailures": 0,
-      "lastStatus": "up",
-      "lastCheckedAt": "2026-08-07T23:58:04.487Z",
+      "consecutiveFailures": 1,
+      "lastStatus": "down",
+      "lastCheckedAt": "2026-08-08T01:58:49.809Z",
       "today": {
-        "date": "2026-08-07",
-        "up": 3,
-        "down": 21
+        "date": "2026-08-08",
+        "up": 0,
+        "down": 1
       },
       "history": [
         {
@@ -59,17 +59,22 @@
           "date": "2026-08-06",
           "up": 0,
           "down": 6
+        },
+        {
+          "date": "2026-08-07",
+          "up": 3,
+          "down": 21
         }
       ],
-      "lastError": null
+      "lastError": "This operation was aborted"
     },
     "web": {
       "consecutiveFailures": 0,
       "lastStatus": "up",
-      "lastCheckedAt": "2026-08-07T23:58:04.621Z",
+      "lastCheckedAt": "2026-08-08T01:58:49.990Z",
       "today": {
-        "date": "2026-08-07",
-        "up": 24,
+        "date": "2026-08-08",
+        "up": 1,
         "down": 0
       },
       "history": [
@@ -122,18 +127,23 @@
           "date": "2026-08-06",
           "up": 6,
           "down": 0
+        },
+        {
+          "date": "2026-08-07",
+          "up": 24,
+          "down": 0
         }
       ],
       "lastError": null
     },
     "synthetic": {
-      "consecutiveFailures": 106,
+      "consecutiveFailures": 107,
       "lastStatus": "down",
-      "lastCheckedAt": "2026-08-07T23:58:04.874Z",
+      "lastCheckedAt": "2026-08-08T01:58:56.176Z",
       "today": {
-        "date": "2026-08-07",
+        "date": "2026-08-08",
         "up": 0,
-        "down": 24
+        "down": 1
       },
       "history": [
         {
@@ -185,6 +195,11 @@
           "date": "2026-08-06",
           "up": 0,
           "down": 6
+        },
+        {
+          "date": "2026-08-07",
+          "up": 0,
+          "down": 24
         }
       ],
       "lastError": "POST https://quay-api.onrender.com/links -> HTTP 401 (expected 201)"
