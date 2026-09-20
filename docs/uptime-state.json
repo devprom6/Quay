@@ -1,13 +1,13 @@
 {
   "targets": {
     "api": {
-      "consecutiveFailures": 8,
+      "consecutiveFailures": 9,
       "lastStatus": "down",
-      "lastCheckedAt": "2026-09-19T22:55:30.485Z",
+      "lastCheckedAt": "2026-09-20T00:38:15.836Z",
       "today": {
-        "date": "2026-09-19",
+        "date": "2026-09-20",
         "up": 0,
-        "down": 8
+        "down": 1
       },
       "history": [
         {
@@ -274,6 +274,11 @@
           "date": "2026-09-18",
           "up": 4,
           "down": 3
+        },
+        {
+          "date": "2026-09-19",
+          "up": 0,
+          "down": 8
         }
       ],
       "lastError": "This operation was aborted"
@@ -281,10 +286,10 @@
     "web": {
       "consecutiveFailures": 0,
       "lastStatus": "up",
-      "lastCheckedAt": "2026-09-19T22:55:30.608Z",
+      "lastCheckedAt": "2026-09-20T00:38:16.001Z",
       "today": {
-        "date": "2026-09-19",
-        "up": 8,
+        "date": "2026-09-20",
+        "up": 1,
         "down": 0
       },
       "history": [
@@ -552,18 +557,23 @@
           "date": "2026-09-18",
           "up": 7,
           "down": 0
+        },
+        {
+          "date": "2026-09-19",
+          "up": 8,
+          "down": 0
         }
       ],
       "lastError": null
     },
     "synthetic": {
-      "consecutiveFailures": 946,
+      "consecutiveFailures": 947,
       "lastStatus": "down",
-      "lastCheckedAt": "2026-09-19T22:55:45.609Z",
+      "lastCheckedAt": "2026-09-20T00:38:29.164Z",
       "today": {
-        "date": "2026-09-19",
+        "date": "2026-09-20",
         "up": 0,
-        "down": 8
+        "down": 1
       },
       "history": [
         {
@@ -830,9 +840,14 @@
           "date": "2026-09-18",
           "up": 0,
           "down": 7
+        },
+        {
+          "date": "2026-09-19",
+          "up": 0,
+          "down": 8
         }
       ],
-      "lastError": "This operation was aborted"
+      "lastError": "POST https://quay-api.onrender.com/links -> HTTP 401 (expected 201)"
     }
   }
 }
