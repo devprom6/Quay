@@ -1,13 +1,13 @@
 {
   "targets": {
     "api": {
-      "consecutiveFailures": 74,
+      "consecutiveFailures": 75,
       "lastStatus": "down",
-      "lastCheckedAt": "2026-10-25T23:31:09.026Z",
+      "lastCheckedAt": "2026-10-26T01:35:00.047Z",
       "today": {
-        "date": "2026-10-25",
+        "date": "2026-10-26",
         "up": 0,
-        "down": 7
+        "down": 1
       },
       "history": [
         {
@@ -454,6 +454,11 @@
           "date": "2026-10-24",
           "up": 0,
           "down": 8
+        },
+        {
+          "date": "2026-10-25",
+          "up": 0,
+          "down": 7
         }
       ],
       "lastError": "https://quay-api.onrender.com/health -> HTTP 503"
@@ -461,10 +466,10 @@
     "web": {
       "consecutiveFailures": 0,
       "lastStatus": "up",
-      "lastCheckedAt": "2026-10-25T23:31:09.187Z",
+      "lastCheckedAt": "2026-10-26T01:35:00.195Z",
       "today": {
-        "date": "2026-10-25",
-        "up": 7,
+        "date": "2026-10-26",
+        "up": 1,
         "down": 0
       },
       "history": [
@@ -912,18 +917,23 @@
           "date": "2026-10-24",
           "up": 8,
           "down": 0
+        },
+        {
+          "date": "2026-10-25",
+          "up": 7,
+          "down": 0
         }
       ],
       "lastError": null
     },
     "synthetic": {
-      "consecutiveFailures": 1149,
+      "consecutiveFailures": 1150,
       "lastStatus": "down",
-      "lastCheckedAt": "2026-10-25T23:31:09.318Z",
+      "lastCheckedAt": "2026-10-26T01:35:00.438Z",
       "today": {
-        "date": "2026-10-25",
+        "date": "2026-10-26",
         "up": 0,
-        "down": 7
+        "down": 1
       },
       "history": [
         {
@@ -1370,6 +1380,11 @@
           "date": "2026-10-24",
           "up": 0,
           "down": 8
+        },
+        {
+          "date": "2026-10-25",
+          "up": 0,
+          "down": 7
         }
       ],
       "lastError": "POST https://quay-api.onrender.com/links -> HTTP 503 (expected 201)"
